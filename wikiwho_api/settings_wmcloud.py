@@ -26,7 +26,6 @@ EVENT_STREAM_WIKIS = ['arwiki', 'dewiki', 'enwiki', 'eswiki', 'euwiki', 'frwiki'
 PICKLE_FOLDER_DE = '/pickles/de'
 PICKLE_FOLDER_EN = '/pickles/en'
 PICKLE_FOLDER_ES = '/pickles/es'
-PICKLE_FOLDER_TR = '/pickles/tr'
 
 # On pickle_storage02 volume, mounted to /pickles-02
 PICKLE_FOLDER_AR = '/pickles-02/ar'
@@ -39,6 +38,7 @@ PICKLE_FOLDER_JA = '/pickles-02/ja'
 PICKLE_FOLDER_NL = '/pickles-02/nl'
 PICKLE_FOLDER_PL = '/pickles-02/pl'
 PICKLE_FOLDER_PT = '/pickles-02/pt'
+PICKLE_FOLDER_TR = '/pickles-02/tr' # Moved from /pickles/tr @ 2026-02-09, T407660
 
 REST_FRAMEWORK['DEFAULT_THROTTLE_RATES']['anon'] = '100/sec'
 REST_FRAMEWORK['DEFAULT_THROTTLE_RATES']['burst'] = '100/sec'
