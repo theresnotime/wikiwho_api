@@ -26,11 +26,11 @@ EVENT_STREAM_WIKIS = ['arwiki', 'dewiki', 'enwiki', 'eswiki', 'euwiki', 'frwiki'
 PICKLE_FOLDER_DE = '/pickles/de'
 PICKLE_FOLDER_EN = '/pickles/en'
 PICKLE_FOLDER_ES = '/pickles/es'
-PICKLE_FOLDER_EU = '/pickles/eu'
 PICKLE_FOLDER_TR = '/pickles/tr'
 
 # On pickle_storage02 volume, mounted to /pickles-02
 PICKLE_FOLDER_AR = '/pickles-02/ar'
+PICKLE_FOLDER_EU = '/pickles-02/eu' # Moved from /pickles/eu @ 2026-02-09, T407660
 PICKLE_FOLDER_FR = '/pickles-02/fr'
 PICKLE_FOLDER_HU = '/pickles-02/hu'
 PICKLE_FOLDER_ID = '/pickles-02/id'
